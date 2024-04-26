@@ -5,7 +5,7 @@ import * as SecureStore from 'expo-secure-store'
 import React, { createContext, useState, useContext } from 'react'
 import { Platform } from 'react-native'
 import { isTokenValid, login, register, update } from '../api/AuthEndpoints'
-import { AppContext } from '../context/AppContext'
+import { AppContext } from './AppContext'
 
 const AuthorizationContext = createContext()
 

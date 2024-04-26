@@ -11,6 +11,9 @@
     "install:all:bash": "npm run copy:env:bash && npm run install:backend && npm run migrate:backend && npm run install:frontend"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formik": "^2.4.6",
     "nodemon": "^2.0.22"
   }
 }
